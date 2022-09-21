@@ -10,7 +10,7 @@ const districtStyle = {
 const Districts = ({name,speciality}) => {
     const [power,setPower] = useState(1);
     const boostBower = ()=>{
-        const newPower = power * 2;
+        const newPower = power * 2; 
         setPower(newPower);
     }
     return (
